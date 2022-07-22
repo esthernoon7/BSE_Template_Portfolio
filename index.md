@@ -1,5 +1,5 @@
-﻿# Project Name/Title Goes Here
-This will serve as a brief description of your project. Limit this to three sentences because it can become overly long at that point. This copy should draw the user in and make she/him want to read more.
+﻿# Stop Motion Film Maker
+This project consists of using opencvs in order to take picture frames and turn them into a fun stop motion film. 
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
@@ -14,15 +14,15 @@ This will serve as a brief description of your project. Limit this to three sent
 
 '''py
 import cv2
-# initialize the video stream
+ initialize the video stream
 video_cap = cv2.VideoCapture(0)
 
-# grab the width, height, and fps of the frames in the video stream.
+ grab the width, height, and fps of the frames in the video stream.
 frame_width = int(video_cap.get(cv2.CAP_PROP_FRAME_WIDTH))
 frame_height = int(video_cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
 fps = int(video_cap.get(cv2.CAP_PROP_FPS))
 
-# initialize the FourCC and a video writer object
+initialize the FourCC and a video writer object
 fourcc = cv2.VideoWriter_fourcc(*'XVID')
 output = cv2.VideoWriter('output.mp4', fourcc, fps, (frame_width, frame_height))
 
