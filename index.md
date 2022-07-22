@@ -45,4 +45,4 @@ My final milestone is the demonstration step by step of how the code scripted ac
   
 My first milestone was setting up a code sequence for the base of my project. I first had to download python 3.10(64 bit) onto my windows laptop to be able to use the scrip type on my laptop. After downloading python I had to also download Visual Studio Code and OpenCvs as a way to enbale the code script to run properly. 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/R3KhEzNtbq8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>{:target="_blank" rel="noopener"}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/R3KhEzNtbq8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
